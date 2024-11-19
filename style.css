@@ -1,0 +1,22 @@
+body{ 
+    background-color: blue;
+ }
+
+ h1{
+    text-align: center;
+    padding-bottom:20px;
+    color: aliceblue;
+ }
+
+ form{
+    background-color: orange;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-shadow: 10px 10px 10px;
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+ }
