@@ -1,97 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form 4</title>
 
-    <style>
-         body{ 
-            background-color: blue;
-         }
-
-         h1{
-            text-align: center;
-            padding-bottom:20px;
-            color: aliceblue;
-         }
-
-         form{
-            background-color: orange;
-            font-size: 20px;
-            font-family: Arial, Helvetica, sans-serif;
-            margin: auto;
-            padding-top: 20px;
-            padding-left: 20px;
-            box-shadow: 10px 10px 10px;
-            width: 400px;
-            height: 400px;
-            border-radius: 10px;
-         }
-
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    
-<h1>Dados do cliente</h1>
 
-    
+    <h1>Dados do cliente</h1>
+
     <form action="https://sys4soft.com/udemy/forms/index.php">
 
-    <div>
-        <label>
-            <input type="checkbox" name="check" id="">
-            Ativar/Desativar
-        </label>
-
-        <p><b>Genero</b></p>
-
         <div>
-            <label>
-                <input type="radio" name="check" id="">
-                Masculino
-            </label>
-        </div> <br>
-        
-        <div>
-            <label>
-                <input type="radio" name="check" id="">
-                Feminino
-            </label>
+            <label for="">Nome: <br></label>
+            <input type="text" name="nome" id="" required placeholder="seu nome aqui">
         </div>
-
-        <p><b>Qual sistema operacional?</b></p>
-
-        <div>
-            <label>
-                <input type="radio" name="so" id="" value="wi">
-            Windows
-            </label>     
-        </div> <br>
+        <br>
 
         <div>
-            <label>
-                <input type="radio" name="so" id="" value="mac">
-                Mac
-            </label>     
-        </div> <br>
+            <label for="">Endereço: <br></label>
+            <input type="text" name="endereço" id="" required placeholder="digite seu endereço">
+        </div>
+        <br>
 
         <div>
-            <label>
-                <input type="radio" name="so" id="" value="linux">
-                Linux
-            </label>     
-        </div> <br>
-    </div>
+            <label for=""> Cidade: <br></label>
+            <input type="text" name="cidade" id="" required placeholder="digite sua cidade">
+        </div>
+        <br>
 
-    <input type="submit" value="Enviar" id="">
-    <input type="reset" name="Limpar" id="">
+        <div>
+            <label for=""> Celular: <br></label>
+            <input type="text" name="celular" id="" required placeholder="digite seu celular">
+        </div>
+        <br>
+
+        <div>
+            <label for="">E-mail: <br></label>
+            <input type="text" name="email" id="" required placeholder="digite seu e-mail">
+        </div>
+        <br>
+
+        <input type="submit" value="Enviar" id="">
+        <input type="reset" name="Limpar" id="">
 
     </form>
 
 </body>
+
 </html>
