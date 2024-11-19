@@ -17,4 +17,4 @@ ______________________________________________
 
 ° type="password" Abre uma caixa que recebe SENHA;
 
-° type="numer" Abre uma caixa que recebe NUMEROS;
+° type="number" Abre uma caixa que recebe NUMEROS;
