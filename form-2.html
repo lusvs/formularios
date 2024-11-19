@@ -1,36 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farm 2</title>
+    <title>Form 2</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Form 2</h1>
 
-    <form action="https://sys4soft.com/udemy/forms/index.php"  method="post">
-        <div>
-            <label for="">Usuário:</label>
-            <input type="text" name="usuario" id="" required placeholder="Seu nome aqui">
-        </div><br>
+    <h1>Dado dos Alunos</h1>
+
+    <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
+
 
         <div>
-            <label for="">Senha:</label>
-            <input type="password" name="senha" id="" required placeholder="Sua senha aqui">
-        </div><br>
+            <label for="">Data:</label>
+            <input type="date" name="data" id="" required>
+        </div> 
+        <br>
 
         <div>
-            <input type="submit" value="Enviar" id="">
-            <input type="reset" name="Limpar" id="">
+            <label for="">Aluno:</label>
+            <input type="text" name="nome" required placeholder="Seu nome">
         </div>
+        <br>
+
+        <div>
+            <label for="">Diciplina:</label>
+            <input type="text" name="disciplina" required placeholder="Nome da diciplina">
+        </div>
+         <br>
+
+        <div>
+            <label for="">Nota:</label>
+            <input type="number" id="" name="nota" max="10" step="0.5" required placeholder="Sua nota">
+        </div>
+        <br>
+
+
+        <input type="submit" value="Enviar" id="">
+        <input type="reset" name="Limpar" id="">
     </form>
-
-            <!--OPÇÕES DE ELEMENTO INPUT
-            *required: exige que algo seja digitado
-            *placeholder: coloca um texto padrão "seu nome aqui"
-            *value: coloca um valor especifico dentro do input
-            *reset: apaga os dados do formulario-->
-
 </body>
+
 </html>
