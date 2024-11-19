@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Formulario</title>
+
+    <style>
+
+        body{
+            padding: 100px 22%;
+        }
+
+        .hero {
+            border: solid;
+            padding: 20px 10px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <h1>Formulário</h1>
+
+        <form action="https://sys4soft.com/udemy/forms/index.php">
+
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+
+                <div>
+                    <label for="">Nome:</label>
+                    <input type="text" name="Nome" required placeholder="Seu nome aqui">
+                </div><br>
+
+                <div>
+                    <label for="">Endereço:</label>
+                    <input type="text" name="Endereço" id="" required placeholder="Seu nome Endereço">
+                </div><br>
+
+                <div>
+                    <label for="">Cidade:</label>
+                    <input type="text" name="Cidade" id="" required placeholder="Sua cidade">
+                </div><br>
+
+                <div>
+                    <label for="">Estado:</label>
+                    <select name="Estado" id="" required>
+                        <option value="" selected></option>
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="ES">Espírito Santo </option>
+                    </select>
+                </div>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+
+                <p><b>Natureza do cargo</b></p>
+
+                <label for="">
+                    <input type="radio" name="N-cargo" value="Ge" required>Gerência
+                </label>
+
+                <label for="">
+                    <input type="radio" name="N-cargo" value="Fin">Financeiro
+                </label>
+
+                <label for="">
+                    <input type="radio" name="N-cargo" value="Recep">Recepção
+                </label>
+
+                <label for="">
+                    <input type="radio" name="N-cargo" value="ADM">Administrativo
+                </label>
+
+                <label for="">
+                    <input type="radio" name="N-cargo" value="Juri">Juridico
+                </label><br>
+
+                <p><b>Área de interesse</b></p>
+
+                <label for="">
+                    <input type="checkbox" name="Area" value="Comp">Computação
+                </label>
+
+                <label for="">
+                    <input type="checkbox" name="Area" value="Bio">Biologia
+                </label>
+
+                <label for="">
+                    <input type="checkbox" name="Area" value="MA">Meio Ambiente
+                </label>
+
+                <label for="">
+                    <input type="checkbox" name="Area" value="Ege">Engenharia
+                </label>
+
+                <label for="">
+                    <input type="checkbox" name="Area" value="Hist">História
+                </label>
+                <br>
+                <br>
+
+                <p><b>Mini curriculo</b></p>
+                <textarea name="Curriculo" id="" cols="30" rows="10" required placeholder="Seu texto aqui"></textarea>
+            </fieldset><br>
+
+            <input type="submit" value="Enviar" id="">
+            <input type="reset" name="Limpar" id="">
+        </form>
+    </div>
+</body>
+
+</html>
